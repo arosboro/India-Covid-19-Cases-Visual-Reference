@@ -80,3 +80,5 @@ States were changes as follows:
         'Telangana': 'Andhra Pradesh',
 }
 ```
+
+The color pallete for the visualization was borrowed from Graphiq https://blog.graphiq.com/finding-the-right-color-palettes-for-data-visualizations-fcd4e707a283, though I have no affiliation with them.
