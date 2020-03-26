@@ -70,7 +70,7 @@ To deploy on Map Box:
 }
 ```
 
-States were changes as follows:
+States were changed as follows:
 
 ```javascript
 {
