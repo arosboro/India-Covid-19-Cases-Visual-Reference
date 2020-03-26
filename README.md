@@ -5,6 +5,24 @@ This data came from https://www.mohfw.gov.in/.  It was changed as follows to fit
 
 The following Districts were renamed from the value on the left to the value on the right.  In cases where it created two reports from a district, the cases were added together.
 
+View the visualization at https://arosboro.github.io/India-Covid-19-Cases-Visual-Reference/
+
+To generate new geojson:
+1. Update the csv `IN/DistrictWiseList324.csv`. (I believe it's current as of March 24th 2019).
+2. Run `$ node index.js` and if any records for the csv were not mapped to geojson features, they will be listed.
+3. Add any missed records via mappings to the appropriate geojson feature, going off of the st_nm (State name), and district properties.
+3. Re-run until the full dataset is represented.
+
+To deploy on Map Box:
+
+1. Upload the dataset (If it gets large, this may require use of the cli mapbox command.)
+2. Export the dataset to a Tileset (You may repeat 1 and 2. as updates come out with the dataset).
+3. Extend a style (I used monochrome) to include a data layer selected in MapBox studio that you created.
+4. Add color stops (This visualization has 12) and adjust the color on a range for the property/field 'cases'
+5. Update the access tokens and map references in doc/index.html
+6. Deploy
+
+
 ```javascript
 {
         'Vizag': 'Visakhapatnam',
