@@ -33,7 +33,7 @@
         map.addSource('india_district', {
             'type': 'geojson',
             'data':
-                './OUT/covid-19-india-districts.geojson'
+                'https://raw.githubusercontent.com/arosboro/India-Covid-19-Cases-Visual-Reference/master/OUT/covid-19-india-districts.geojson?token=AAQ7DU7MRPIOJRJDYUMOJ3K6QYI7U'
         });
 
 // Add a layer showing the state polygons.
@@ -42,8 +42,8 @@
             'type': 'fill',
             'source': 'india_district',
             'paint': {
-                'fill-color': 'rgba(200, 100, 240, 0.4)',
-                'fill-outline-color': 'rgba(200, 100, 240, 1)'
+                'fill-color': 'rgba(200, 100, 240, 0)',
+                'fill-outline-color': 'rgba(200, 100, 240, 0)'
             }
         });
 
