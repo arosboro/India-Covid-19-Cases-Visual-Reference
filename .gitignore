@@ -1,7 +1,5 @@
 # Project Ignore Commands
 .DS_Store
-IN/*.csv
-OUT/*.csv
 
 # Logs
 logs

@@ -11,15 +11,16 @@ const Converter = require("csvtojson").Converter;
 const covid_numbers_converter = new Converter({workerNum: 4});
 console.log('Converters initialized.');
 
-const covid_data_name = 'DistrictWiseList324.csv';
+const covid_data_name = '2019-03-27-DistrictWiseList324.csv';
 const india_districts = 'india_district.json';
 
 const state_normalize = function(input1, input2) {
     const mapping = {
         'Delhi': 'NCT of Delhi',
-        'J & K': 'Jammu & Kashmir',
+        'J&K': 'Jammu & Kashmir',
         'Ladakh': 'Jammu & Kashmir',
         'Telangana': 'Andhra Pradesh',
+        'BIHAR': 'Bihar',
     };
     if (Object.keys(mapping).indexOf(input1) !== -1) {
         if (district_normalize(input2) === 'Uttara Kannada') {
@@ -79,6 +80,17 @@ const district_normalize = function(input) {
         'Warangal (U)': 'Warangal',
         'Medchal': 'Rangareddy',
         'Bhadradri Kothagudam': 'Uttara Kannada',
+        'Chitoor': 'Chittoor',
+        'Vijayawada,Krishna': 'Krishna',
+        'Bandipora': 'Bandipore',
+        'BBMP': 'Uttara Kannada',
+        'Bengaluru': 'Bangalore Rural',
+        'Aizwal (W)': 'Aizawl',
+        'Nawanshahr': 'Shahid Bhagat Singh Nagar',
+        'Madchal': 'Rangareddy',
+        'Mahboobnagar': 'Mahbubnagar',
+        'Pauri Garhwal': 'Garhwal',
+        'South 24 Pargana': 'South 24 Parganas',
     };
     if (Object.keys(mapping).indexOf(input) !== -1) {
         return mapping[input];
