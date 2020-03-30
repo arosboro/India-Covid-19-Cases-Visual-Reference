@@ -1,0 +1,164 @@
+State,District,Cases
+A&N Islands,South Andaman,9
+Andhra Pradesh,Chitoor,1
+Andhra Pradesh,East Godavari,2
+Andhra Pradesh,Guntur,2
+Andhra Pradesh,Krishna,3
+Andhra Pradesh,Nellore,1
+Andhra Pradesh,Prakasam,1
+Andhra Pradesh,Vizag,4
+BIHAR,Munger,3
+BIHAR,Siwan,1
+BIHAR,PATNA,4
+BIHAR,Nalanda,1
+Chandigarh,Chandigarh,8
+Chhattisgarh,Raipur,3
+Chhattisgarh,Durg,1
+Chhattisgarh,Bilaspur,1
+Chhattisgarh,Bilaspur,1
+Delhi,Central,4
+Delhi,East Delhi,5
+Delhi,North Delhi,4
+Delhi,North East,5
+Delhi,North West,5
+Delhi,South Delhi,8
+Delhi,South West,3
+Delhi,West Delhi,5
+Goa,Pending,3
+Gujarat,Ahmedabad,18
+Gujarat,Gandhinagar,9
+Gujarat,Kutch,1
+Gujarat,Rajkot,8
+Gujarat,Mehsana,1
+Gujarat,Surat,6
+Gujarat,Vadodara,9
+Gujarat,Bhavnagar,1
+Haryana,Faridabad,2
+Haryana,Gurugram,24
+Haryana,Palwal,1
+Haryana,Panchkula,1
+Haryana,Panipat,4
+Haryana,Sonipat,1
+Himachal Pradesh,Kangra,3
+J&K,Jammu,3
+J&K,Rajauri,3
+J&K,Udhampur,3
+J&K,Srinagar,12
+J&K,Bandipora,8
+J&K,Budgam,1
+J&K,Pulwama,1
+Karnataka,BBMP,26
+Karnataka,Bengaluru Urban,17
+Karnataka,Chikkaballapura,6
+Karnataka,Dakshin Kannada,7
+Karnataka,Dharwad,1
+Karnataka,Kalaburgi,3
+Karnataka,Kodagu,1
+Karnataka,Mysore,3
+Karnataka,Tumkuru,1
+Karnataka,Udupi,1
+Karnataka,Uttar Kannada,7
+Karnataka,Davangere,3
+Kerala,Alappuzha,2
+Kerala,Ernakulam,19
+Kerala,Idukki,2
+Kerala,Kannur,27
+Kerala,Kasargod,78
+Kerala,Kottayam,6
+Kerala,Kozhikode,9
+Kerala,Palakkad,4
+Kerala,Pathanamthitta,10
+Kerala,Wayanad,1
+Kerala,Thiruvanthpuram,8
+Kerala,Mallapuram,8
+Kerala,Thrissur,6
+Kerala,Kollam,2
+Ladakh,Kargil,2
+Ladakh,Leh,11
+Madhya Pradesh,Bhopal,3
+Madhya Pradesh,Gwalior,1
+Madhya Pradesh,Indore,10
+Madhya Pradesh,Shivpuri,2
+Madhya Pradesh,Ujjain,4
+Madhya Pradesh,Jabalpur,8
+Madhya Pradesh,Pending,2
+Maharashtra,Ahmednagar,3
+Maharashtra,Aurangabad,1
+Maharashtra,Mumbai,81
+Maharashtra,Gondia,1
+Maharashtra,Nagpur,12
+Maharashtra,Kolhapur,1
+Maharashtra,Palghar,2
+Maharashtra,Pune,31
+Maharashtra,Raigad,1
+Maharashtra,Ratnagiri,1
+Maharashtra,Sangli,24
+Maharashtra,Satara,2
+Maharashtra,Sindhudurg,1
+Maharashtra,Thane,16
+Maharashtra,Yavatmal,4
+Maharashtra,Pending,5
+Manipur,Imphal West,1
+Mizoram,Aizwal (W),1
+Odisha,Khurda,3
+Puducherry,Mahe,1
+Punjab,Amritsar,1
+Punjab,Hoshiarpur,6
+Punjab,Jalandhar,5
+Punjab,Ludhiana,1
+Punjab,Nawanshahr,1
+Punjab,SAS Nagar,6
+Punjab,SBS Nagar,18
+Rajasthan,Bhilwara,22
+Rajasthan,Jaipur,8
+Rajasthan,Jhunjhunu,6
+Rajasthan,Jodhpur,6
+Rajasthan,Pali,1
+Rajasthan,Dungarpur,2
+Rajasthan,Ajmer,1
+Rajasthan,Pratapgarh,2
+Rajasthan,Sikar,1
+Rajasthan,Churu,1
+Rajasthan,Pending,4
+Tamil Nadu,Ariyalur,1
+Tamil Nadu,Chennai,18
+Tamil Nadu,Coimbatoor,1
+Tamil Nadu,Erode,5
+Tamil Nadu,Kanchipurum,1
+Tamil Nadu,Madurai,4
+Tamil Nadu,Salem,6
+Tamil Nadu,Thanjavur,1
+Tamil Nadu,Tiruneveli,1
+Tamil Nadu,Tirupur,1
+Tamil Nadu,Trichy,1
+Tamil Nadu,Vellore,2
+Telangana,Bhadradri Kothagudam,4
+Telangana,Hyderabad,27
+Telangana,Karimnagar,1
+Telangana,Madchal,1
+Telangana,Mahboobnagar,1
+Telangana,Medchal,3
+Telangana,Ranga Reddy,7
+Telangana,Warangal (U),1
+Telangana,Pending,21
+Uttar Pradesh,Agra,10
+Uttar Pradesh,GB Nagar,22
+Uttar Pradesh,Ghaziabad,5
+Uttar Pradesh,Jaunpur,1
+Uttar Pradesh,Kanpur,1
+Uttar Pradesh,Lakhimpur Kheri,1
+Uttar Pradesh,Lucknow,8
+Uttar Pradesh,Moradabd,1
+Uttar Pradesh,Philibhit,2
+Uttar Pradesh,Shamli,1
+Uttar Pradesh,Bagpat,1
+Uttar Pradesh,Meerut,1
+Uttar Pradesh,Varanasi,1
+Uttarakhand,Dehradun,4
+Uttarakhand,Pauri Garhwal,1
+Uttarakhand,Pending,1
+West Bengal,Kolkata,7
+West Bengal,Nadia,5
+West Bengal,North 24 Pargana,2
+West Bengal,South 24 Pargana,1
+West Bengal,East Mirzapur,2

@@ -11,11 +11,12 @@ const Converter = require("csvtojson").Converter;
 const covid_numbers_converter = new Converter({workerNum: 4});
 console.log('Converters initialized.');
 
-const covid_data_name = '2019-03-27-DistrictWiseList324.csv';
+const covid_data_name = '2019-03-29-DistrictWiseList324.csv';
 const india_districts = 'india_district.json';
 
 const state_normalize = function(input1, input2) {
     const mapping = {
+        'A&N Islands': 'Andaman & Nicobar Island',
         'Delhi': 'NCT of Delhi',
         'J&K': 'Jammu & Kashmir',
         'Ladakh': 'Jammu & Kashmir',
@@ -91,6 +92,15 @@ const district_normalize = function(input) {
         'Mahboobnagar': 'Mahbubnagar',
         'Pauri Garhwal': 'Garhwal',
         'South 24 Pargana': 'South 24 Parganas',
+        'Rajauri': 'Rajouri',
+        'Mehsana': 'Mahesana',
+        'Budgam': 'Badgam',
+        'Tumkuru': 'Tumkur',
+        'Davangere': 'Davanagere',
+        'Gondia': 'Gondiya',
+        'Trichy': 'Tiruchirappalli',
+        'Bagpat': 'Baghpat',
+        'East Mirzapur': 'Purba Medinipur',
     };
     if (Object.keys(mapping).indexOf(input) !== -1) {
         return mapping[input];
@@ -174,4 +184,3 @@ console.log("Starting Parallel Tasks.");
 async.parallel({
     data: covid_numbers_scrub,
 }, final_callback);
-
